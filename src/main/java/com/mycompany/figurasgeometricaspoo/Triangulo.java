@@ -20,7 +20,9 @@ public class Triangulo extends FiguraGeometrica{
 
     public double obtenerPerimetro(){
 
-        double perimetro= 
+        double p= Math.sqrt(base*base+altura*altura);
+
+        double perimetro = base+ 2*p;
 
         return perimetro;
 
