@@ -3,7 +3,7 @@ package com.mycompany.figurasgeometricaspoo;
 public class Circulo extends FiguraGeometrica {
     private double radio;
 
-
+// Complejidad O(1)
     public Circulo(String nombre, String color,double radio) {
         super(nombre, color);
         this.radio = radio;
@@ -11,7 +11,7 @@ public class Circulo extends FiguraGeometrica {
 
 
 
-
+// Complejidad O(1)
     public double obtenerArea() {
 
          double area = Math.PI * Math.pow(radio, 2);
@@ -21,7 +21,7 @@ public class Circulo extends FiguraGeometrica {
 
     }
 
-
+// Complejidad O(1)
     public double obtenerPerimetro() {
 
         double perimetro = 2 * Math.PI * radio;

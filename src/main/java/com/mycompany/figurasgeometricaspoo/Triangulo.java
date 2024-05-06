@@ -10,14 +10,14 @@ public class Triangulo extends FiguraGeometrica{
         this.base = base;
         this.altura = altura;
     }
-
+// Complejidad O(1)
     public double obtenerArea(){
         double area = (base*altura)/2;
 
          return area;
 
     }
-
+// Complejidad O(1)
     public double obtenerPerimetro(){
 
         double p= Math.sqrt(base*base+altura*altura);

@@ -9,21 +9,21 @@ public class FiguraGeometrica {
     }
 
 
-
+// Complejidad O(1)
     public double obtenerArea(){
         return 0;
 
-
+// Complejidad O(1)
     }
     public double obtenerPerimetro(){
         return 0;
 
-
+// Complejidad O(1)
     }
     public String getNombre() {
         return nombre;
     }
-
+// Complejidad O(1)
     public String getColor() {
         return color;
 

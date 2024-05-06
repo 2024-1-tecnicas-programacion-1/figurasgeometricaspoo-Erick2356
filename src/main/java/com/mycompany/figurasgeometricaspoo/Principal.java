@@ -2,6 +2,7 @@ package com.mycompany.figurasgeometricaspoo;
 import java.util.*;
 
 public class Principal {
+    // Complejidad O(1)
     public static void main(String[] args) {
         Scanner e = new Scanner (System.in);
          System.out.println("Ingrese el nombre de la figura");
@@ -45,7 +46,7 @@ public class Principal {
                 break;
 
 
-        
+        // Complejidad O(1)
     }
 
 }
